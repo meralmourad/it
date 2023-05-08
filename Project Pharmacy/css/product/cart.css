@@ -1,0 +1,251 @@
+body{
+    background: url(../../photos/gradient.png);
+    background-size: 100;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+.prod_img { 
+    float: left;
+    width: 20%; 
+}
+
+.prod_details { 
+    float: left; 
+    width: 37%; 
+}
+
+.prod_price { 
+    float: left;
+    width: 12%; 
+}
+.product_Quant{
+    float: left;
+    width: 10%;
+}
+.prod_num { 
+    float: left;
+    width: 10%; 
+}
+
+.rem { 
+    float: left;
+    width: 9%; 
+}
+
+.cart {
+    margin-top: -45px;
+    max-width: 939px;
+    margin:0 auto;
+
+}
+
+body .cart{
+    padding: 0px 30px 30px 20px;
+    font-weight: 100;
+}
+
+.cart h1 
+{font-weight: 100;
+}
+
+    .cart label 
+        {color: black;}
+
+    
+        .product .prod_price:before, .product .prod_price:before, .Tota_val:before 
+        {content: '$';}   
+    
+        .column_lab label {
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #eee;
+        text-align: inherit;
+    }
+
+    .product {
+        margin-bottom: 20px;
+        margin: 0 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #eee;
+        display: inline-table;
+        }
+
+    .product .prod_img 
+        {text-align: center;}
+
+    .product img 
+        {width: 100px;}
+
+    .product .prod_details .prod_title 
+        {margin-right: 20px;}
+
+    .product .prod_details .prod_desc {
+        margin: 5px 20px 5px 0;
+        line-height: 1.4em;
+        }
+
+    .product .prod_num input {width: 40px;}
+
+    .product .rembtn {
+            
+            border: 0;
+            padding: 4px 8px;
+            background-color: #c66;
+            color: #fff;
+            font-size: 12px;
+            border-radius: 3px;
+        }
+
+        .product .rembtn:hover {
+            background-color: #a44;
+        }
+        
+        .totals .totals_items {
+            float: right;
+            clear: both;
+            width: 100%;
+            margin-bottom: 10px;
+                    }
+            .totals .totals_items .totals  label {
+                float: left;
+                clear: both;
+                width: 79%;
+                text-align: right;
+            }
+        
+        .totals .totals_items .Tota_val {
+                float: right;
+                width: 21%;
+                text-align: right;
+            }
+        
+
+        .buy {
+                float: right;
+                border: 0 none;
+                margin-top: 20px;
+                padding: 6px 25px;
+                color: #fff;
+                font-size: 20px;
+                font-weight: 500;
+                border-radius: 5px;
+                background-color: #4CAF50;
+                color: white;
+                cursor: pointer;
+
+            }
+
+        .buy:hover {
+                background-color: #494;
+            }
+
+        @media screen and (max-width: 650px)   {
+
+            .cart {
+                margin: 0;
+                padding-top: 20px;
+                border-top: 1px solid #eee;
+                }
+            
+            .column_lab {
+                display: none;
+            }
+            
+            .prod_img {
+                float: right;
+                width: auto;}
+
+            .prod_img  img {
+                    margin: 0 0 10px 10px;
+                }
+
+            
+            .prod_details {
+                float: none;
+                margin-bottom: 10px;
+                width: auto;
+            }
+            
+            .prod_price {
+                clear: both;
+                width: 70px;
+            }
+            
+            .prod_num {width: 100px;}
+            .prod_num input {margin-left: 20px;}
+            
+            .prod_num:before {
+            content: 'x';
+            }
+            
+            .rem {
+                width: auto;
+            }
+            
+            .prod_price {
+                float: right;
+                width: 70px;
+            }
+            
+        }
+
+        @media screen and (max-width: 350px) {
+                .rem {
+                    float: right;
+                    }
+                
+                .prod_price {
+                    float: right;
+                    clear: left;
+                    width: auto;
+                    margin-top: 10px;
+                    }
+                
+                .product .prod_price:before {
+                    content: 'Item Total: $';
+                    }
+
+                .totals .totals_items label {
+                    width: 60%;
+                    }
+                    
+                .totals .totals_items.Tota_val {
+                    width: 40%;
+                    }
+                
+                
+        }
+        
+        .fix{
+            width: 140%;
+        }
+        .buyinfo label{
+            margin-top: 1%;
+          }
+          .buyinfo input[type=text], select {
+            width: 50%;
+            padding: 8px 12px;
+            margin: 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top:1% ;
+          }
+          
+          .buyinfo input[type=submit] {
+                border: 0 none;
+                margin-top: 3%;
+                padding: 6px 25px;
+                font-size: 20px;
+                border-radius: 5px;
+                background-color: #4CAF50;
+                color: white;
+                cursor: pointer;
+
+          }
+          
+          .buyinfo input[type=submit]:hover {
+            background-color: #45a049;
+          }

@@ -1,0 +1,129 @@
+body{
+  background: url(../../photos/gradient.png);
+  background-size: 100%;
+  background-size: cover;
+  margin: 0%;
+}
+.photo{
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: right;
+}
+.text{
+  position:relative; left:5px; top:30px
+}
+.line{
+  border-style: outset ;
+  width: 99%;
+  margin-top:2%;
+}
+#search{
+  width: 60%;
+}
+#searchBar{
+  width: 100%;
+  background:     rgba(3, 33, 73 , .8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: relative;
+  transition: all 0.4s;
+  height: 55px;
+}
+.btnadd{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 5px 14px;
+  background-color:#2b7d9eb5;
+  border-radius: 45px;
+  color:black;
+  border: none;
+  position: relative;left:20px;top:3px;
+  margin-right:1%;
+
+
+}
+.btnadd:hover{
+  background-color:     #c27817e4;
+  border-radius: 50px;
+}
+.btnbuy{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 5px 14px;
+  background-color:#2b7d9eb5;
+  border-radius: 45px;
+  color:black;
+  border: none;
+  position: relative;left:25px;top:3px;
+
+}
+.btnbuy:hover{
+  background-color:     #31b43cd6;
+  border-radius: 50px;
+}
+.btnedit{
+ 
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 5px 14px;
+  background-color:#2b7d9eb5;
+  border-radius: 45px;
+  color:black;
+  border: none;
+  position: relative;left:1px;top:0px;
+  margin-right:1%;
+
+}
+.btnedit:hover{
+  background-color:     #4aa6c4e2;
+  border-radius: 50px;
+}
+#form {
+  width: 60%;
+  padding: 0 17px;
+}
+#form2{
+  width: 22.5%;
+}
+.size{
+  font-weight: bold;
+  position:relative; left:15px; top:10px
+}
+.price{
+  font-weight: bold;
+  position:relative; left:15px; top:8px
+}
+.btnDelete{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 5px 14px;
+  background-color:rgb(214, 75, 75);
+  border-radius: 45px;
+  color:black;
+  border: none;
+}
+.btnDelete:hover{
+  background-color:     #b0424fcd;
+  border-radius: 50px;
+}
+.details{
+  width: 30px;
+  height: 30px;
+  position:static; top: 300px; left :390px;
+  margin-bottom: 0%;
+}
+.Details:hover{
+  background-color:     #e2813ccd;
+  border-radius: 50px;
+}
+.btnnav{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 5px 14px;
+  background-color:#91cee6b5;
+  border-radius: 45px;
+  color:black;
+  border: none;
+}
+.btnnav:hover{
+  background-color:     #2882aee2;
+  border-radius: 50px;
+}

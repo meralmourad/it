@@ -1,0 +1,97 @@
+body{
+    background: url(../../photos/gradient.png);
+    background-position: center;
+    background-size: 110%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+#profphoto{
+    border-radius: 200px;
+    position: relative;
+    text-align: center  ;
+    width:100% ;
+    background-color: transparent;
+}
+table{
+    width: 45%;
+    margin: 1%;
+    background-color: rgba(90, 150, 191,0);
+    border-spacing: 10px;
+
+}
+td{
+    text-align: start;
+    background-color: rgba(255, 255, 255, 0);
+}
+th{
+    text-align: center;
+    width: 15%;
+    color: #07074D;
+    border-radius: 3px;
+}
+th , td{
+    font-size: 17px;
+    /* font-family: "Gill Sans MT"; */
+    margin-right: 10px;
+    border-right-width: 12px;
+}
+#table{
+    color: gray;
+    width: 98%;
+    text-align: center;
+}
+button{
+    border: none;
+    cursor: pointer;
+    background: rgba(3, 33, 73 , .8);
+    color: #fff;
+    border-radius: 17px;
+    margin-left: 40%;
+    margin-bottom: 5px;
+    padding: .5%;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.2);;
+}
+#formPass label{
+    font-weight: bold;
+    font-size: 17px;
+    margin-inline-start: 16%;
+    color: rgba(3, 33, 73 , .8);
+    border-radius: 3px;
+    width:6.75%;
+
+}
+#formPass input{
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.2);
+    border:none;
+    width:23%;
+    margin:1%;
+}
+input{
+    border:none;
+    width: 100%;
+    background-color: transparent;
+}
+input:focus, textarea:focus{
+    outline: none !important;
+    border: none;
+}
+#photo{
+    width: 27%;
+}
+.tab{
+    width: 70%;
+}
+.tab td{
+    text-align: center;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  #info{
+    margin-bottom: 400px;
+  }

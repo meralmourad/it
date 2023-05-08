@@ -1,0 +1,40 @@
+table, th , td {
+    border: 5px solid black;
+    border-collapse:collapse;
+}
+th, td{
+    padding: 12px;
+    text-align:center;
+}
+table{
+    margin: auto;
+    width: 50%;
+    border-radius: 5px;
+}
+.tab tr:nth-child(even){
+    background-color: #0303031c;
+
+}  
+.tab tr:nth-child(odd){
+    background-color: #ffffff;
+}
+.tab tbody tr:hover{
+    background-color: #0303032c;
+}
+
+
+.BackToList{
+    box-shadow: 0 8px 16px 0 rgba(53, 47, 47, 0.247), 0 6px 20px 0 rgba(75, 31, 31, 0.356);
+    padding: 5px 14px;
+    position: absolute;
+    right: 25%;
+    background-color:#5766f3;
+    border-radius: 45px;
+    color: white;
+    border: none;
+}
+
+.BackToList:hover{
+    background-color: 	#0853a8;
+    border-radius: 50px;
+}

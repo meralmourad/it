@@ -1,0 +1,126 @@
+body{
+    background: url(../../photos/gradient.png);
+    background-size: 100%;
+    background-size: cover;
+    margin: 0%;
+  }
+  .photo{
+    width: 15%;
+    float: left;
+  }
+  .text{
+    position:relative; left:5px; top:30px;
+    font-size: 150%;
+    font-weight: bold;
+  }
+  .btnadd{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 5px 14px;
+    background-color:#2b7d9eb5;
+    border-radius: 45px;
+    color:black;
+    width: 9%;
+    aspect-ratio: 5/1;
+    border: none;
+    position: relative;left:20px;top:3px;
+    margin-right: 1%;
+  
+  }
+  .btnadd:hover{
+    background-color:     #c27817e4;
+    border-radius: 50px;
+    width: 9%;
+    aspect-ratio: 5/1;
+  }
+  .btnbuy{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 5px 14px;
+    background-color:#2b7d9eb5;
+    border-radius: 45px;
+    color:black;
+    border: none;
+    width: 9%;
+    aspect-ratio: 5/1;
+    position: relative;left:25px;top:3px;
+  
+  }
+  .btnbuy:hover{
+    background-color:     #31b43cd6;
+    border-radius: 50px;
+    width: 9%;
+    aspect-ratio: 5/1;
+  }
+  .btnedit{
+   
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 5px 14px;
+    background-color:#2b7d9eb5;
+    border-radius: 45px;
+    color:black;
+    border: none;
+    width: 9%;
+    aspect-ratio: 5/1;
+    position: relative;left:1px;top:0px;
+    margin-right: 1%;
+  }
+  .btnedit:hover{
+    background-color:    #2b7d9e97;
+    border-radius: 50px;
+    width: 9%;
+    aspect-ratio: 5/1;
+  }
+  .price{
+    font-weight: bold;
+    position:relative; left:15px; top:8px;
+    font-size: 130%;
+    margin-top: 4%
+  }
+  .btnDelete{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 5px 14px;
+    background-color:rgb(214, 75, 75);
+    border-radius: 45px;
+    color:black;
+    border: none;
+    width: 9%;
+    aspect-ratio: 5/1;
+  }
+  .btnDelete:hover{
+    background-color:     #b0424fcd;
+    border-radius: 50px;
+    width: 9%;
+    aspect-ratio: 5/1;
+  }
+  .details{
+    width: 30px;
+    height: 30px;
+    position:static; top: 300px; left :390px;
+    margin-bottom: 0%;
+  }
+  .Details:hover{
+    background-color:     #e2813ccd;
+    border-radius: 50px;
+  }
+.listOfSpecs{
+    width: 50%;
+    aspect-ratio: 3/1;
+    margin: 4%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.listOfSpecs th ,.listOfSpecs tr{
+text-align: start;
+}
+.listOfSpecs th{
+    width: 30%;
+}
+.description{
+    margin:4%;
+    margin-top: 1%;
+    font-size: large;
+}
+.line{
+    border-style: outset ;
+    width: 98%;
+    
+}

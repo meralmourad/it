@@ -1,0 +1,119 @@
+body{
+    background: url(../../photos/gradient.png);
+    background-size: 100%;
+    margin: 0%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: stretch;
+
+}
+/*Sign in*/
+.signin{
+    background-color: rgba(3, 33, 73,.8) ;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 25%;
+    aspect-ratio: 1.1/1;
+    margin: 5% 37.5%;
+    position: relative;
+    border-radius: 32px;
+    font-size: 16px;
+    
+}
+.signin input{
+    width: 90%;
+    height: 30px;
+    border: rgb(0, 0, 2) 1px solid;
+    background: rgb(231, 232, 240);
+    font-size: 16px;
+    border-radius: 10px;
+}
+#sub{
+    width: 30%;
+    background: rgba(91, 162, 255, 0.954);
+    color: black;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.signin a{
+    font-size: 16px;
+    text-decoration: none;
+}
+.signin button{
+    background: rgba(99, 185, 255, 0.557);
+    border-style: groove;
+    color: white;
+}
+.signin h1{
+    padding-top:7%;
+    padding-bottom:1%;
+    color: white ;
+    /* font-family: Garamond ; */
+    font-size: 30px;
+    text-align: center;
+}
+.signin label{
+    font-size: 17px;
+    font-weight: lighter;
+    /* font-family: "Gill Sans MT"; */
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Sign up*/
+.signup{
+    background-color: rgba(3, 33, 73,.8);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 23%;
+    aspect-ratio: 1/1.4;
+    margin: 5% 38.5%;
+    border-radius: 32px;
+    font-size: 16px;
+    padding: 2%;
+}
+.signup input{
+    width: 90%;
+    height: 25px;
+    border: rgb(0, 0, 2) 1px solid;
+    background: rgb(231, 232, 240);
+    font-size: 16px;
+    border-radius: 10px;
+}
+.signup a{
+    font-size: 16px;
+    text-decoration: none;
+}
+.signup button{
+    background: rgba(8, 50, 85 , .1);
+    border-radius: 5px;
+    color: white;
+}
+.signup h1{
+    margin: 0px 0px 6% 0px;
+    color: white ;
+    /* font-family: Garamond ; */
+    font-size: 30px;
+    text-align: center;
+}
+.signup label{
+    font-size: 17px;
+    font-weight: lighter;
+    /* font-family: "Gill Sans MT"; */
+}
+/*----------------------------------------------------------------------------*/
+pre a{
+    color: white;
+    font-size: 17px;
+    text-decoration: underline;
+}
+pre{
+    font-size: 17px;
+    font-weight: lighter;
+}
+span {
+    color: rgba(179, 0, 0, 0.769);
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "Id": 1,
+        "Category": "Haircare",
+        "Name": "shampoo dove for dry hair",
+        "Price": "350",
+        "Company": "dove",
+        "Brand": "shampoo",
+        "Item_form": "ASDAD",
+        "N_Items": "9",
+        "Use_For": "ADASD",
+        "Special_ing": "dsfasfasfsafasf",
+        "Item_volume": "300ml",
+        "Stock": "20",
+        "Description": "fsfasfasfasfaefa",
+        "PhotoIsPath": "..\/..\/photos\/productPhoto\/dove.png"
+    },
+    {
+        "Id": 2,
+        "Category": "Skincare",
+        "Name": "Vaseline Intensive Care Cocoa Glow Body Lotion",
+        "Price": "200",
+        "Company": "Vaseline",
+        "Brand": "Vaseline",
+        "Item_form": "ASDAD",
+        "N_Items": "10",
+        "Use_For": "ADASD",
+        "Special_ing": "sdasdasdasda",
+        "Item_volume": "400ml",
+        "Stock": "11",
+        "Description": "kdhqwkjdkjawdkwgdka",
+        "PhotoIsPath": "..\/..\/photos\/productPhoto\/1.png"
+    },
+    {
+        "Id": 4,
+        "Category": "medicalDrugs",
+        "Name": "pnadol cold & flu",
+        "Price": "155",
+        "Company": "pnadol",
+        "Brand": "pnadol",
+        "Item_form": "bills",
+        "N_Items": "32",
+        "Use_For": "flu & pain killer",
+        "Special_ing": "Paracetamol",
+        "Item_volume": "50 packets",
+        "Stock": "3313",
+        "Description": "Panadol Cold + Flu Day tablets provide relief from Major Cold and flu symptoms.",
+        "PhotoIsPath": "..\/..\/photos\/productPhoto\/WhatsApp_Image_2023-05-08_at_1.05.27_AM-removebg-preview.png"
+    }
+]

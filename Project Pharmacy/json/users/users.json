@@ -1,0 +1,83 @@
+{
+    "0": {
+        "Id": 1,
+        "Name": "Admin",
+        "Email": "Admin@Gmail.com",
+        "Password": "Admin",
+        "Address": "",
+        "PhoneNumber": "",
+        "Admin": true,
+        "cart": [
+            0
+        ],
+        "History": []
+    },
+    "5": {
+        "Id": 2,
+        "Name": "Omar",
+        "Email": "Omar@gmail.com",
+        "Password": "0258741O",
+        "Address": "abcdefghijklmno",
+        "PhoneNumber": "0102475893",
+        "Admin": false,
+        "cart": [],
+        "History": []
+    },
+    "7": {
+        "Id": 4,
+        "Name": "Hany",
+        "Email": "Hany@Gmail.com",
+        "Password": "123456789Hh",
+        "Address": "bbbdddddaaaa",
+        "PhoneNumber": "0100254637",
+        "Admin": false,
+        "cart": [],
+        "History": []
+    },
+    "10": {
+        "Id": 3,
+        "Name": "Menna",
+        "Email": "Menna@gmail.com",
+        "Password": "3698520M",
+        "Address": "auwbhfgajwbfwau",
+        "PhoneNumber": "01236548899",
+        "Admin": false,
+        "cart": [],
+        "History": []
+    },
+    "11": {
+        "Id": 6,
+        "Name": "meral mourad",
+        "Email": "meral.mourad.24@gmail.com",
+        "Password": "Miral01234",
+        "Address": "nddndnddrwerfqweqwdqwerqwr",
+        "PhoneNumber": "01208290821",
+        "Admin": false,
+        "cart": [],
+        "History": [
+            1,
+            2,
+            2,
+            2,
+            3,
+            2,
+            4
+        ]
+    },
+    "14": {
+        "Id": 5,
+        "Name": "Fady",
+        "Email": "Fady@gmail.com",
+        "Password": "0",
+        "Address": "abcdefghijklmnopq",
+        "PhoneNumber": "01208225427",
+        "Admin": false,
+        "cart": [
+            1,
+            2
+        ],
+        "History": [
+            1
+        ]
+    }
+}

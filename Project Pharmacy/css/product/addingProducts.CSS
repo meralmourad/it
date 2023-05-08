@@ -1,0 +1,105 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(../../photos/gradient.png);
+    background-size: 100%;
+    background-size: cover;
+    margin: 0%;
+}
+.container {
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px;
+    justify-items: start;
+    /* flex-direction: row; */
+}
+
+.formcont {
+    width: 100%;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.inputformdiv  div {
+    width: 40%;
+    flex-direction: column-reverse;
+    padding-bottom: 10px;
+  }
+  .description {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .inputform {
+    width: 100%;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #a1a5acda;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 15px;
+    color: #0b0b78;
+    outline: none;
+    resize: none;
+  
+  }
+  .inputform::placeholder {
+    color: #536387;
+  }
+  .inputform:focus {
+    border-color: #6A64F1;
+  }
+  .labelform {
+    color: #07074D;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    display: block;
+    margin-bottom: 18px;
+  }
+  .inputform:focus + .labelform {
+    color: #6A64F1;
+  }
+
+.btn {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 12px 25px;
+    border: none;
+    font-weight: 500;
+    background-color: #6A64F1;
+    color: white;
+    cursor: pointer;
+    margin-top: 25px;
+    width: 20%;
+  }
+.btn:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  } 
+
+  .chooseimg label{
+    cursor: pointer;
+}
+.chooseimg{
+    border: dotted 2px;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.inputformdiv{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
